@@ -23,15 +23,30 @@ func main(){
 	a := nums[1:3]
 	fmt.Println(a)
 
-	for i := 0; i < len(nums); i++{
-		fmt.Println(nums[i]);
+	fruits := []string{}
+	var n int 
+	fmt.Scan(&n)
+
+	for i := 0; i < n; i++{
+		var fru string
+		fmt.Scan(&fru)
+		fruits = append(fruits, fru)
 	}
 
-	for idx, val := range nums {
-		fmt.Println(idx, val)
+	for _, fru := range fruits{
+		fmt.Println(fru)
 	}
 
-	for _, v := range nums{
-		fmt.Println(v);
-	}
+
+	// for i := 0; i < len(nums); i++{
+	// 	fmt.Println(nums[i]);
+	// }
+
+	// for idx, val := range nums {
+	// 	fmt.Println(idx, val)
+	// }
+
+	// for _, v := range nums{
+	// 	fmt.Println(v);
+	// }
 }

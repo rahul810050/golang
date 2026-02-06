@@ -12,5 +12,5 @@ func main(){
 	fmt.Printf("age is %d\n", age);
 	fmt.Printf("name is %s\n", name);
 	fmt.Printf("height is %.3f\n", height); // this will print the height with 3 decimal places
-	fmt.Printf("type of age is %T\n", age); // this will print the type of age
+	fmt.Printf("type of age is %T\n", age); // this will print the type of the variable age
 }

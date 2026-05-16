@@ -145,7 +145,7 @@ func main() {
 	// complex map
 	mp2 := map[int][]int{1:{1,2,3,4}}
 	mp2[2] = []int{5,6,7}
-	delete(mp2, 2) // delete function take two argument 1-> map and 2-> the key that value we want to delete
+	delete(mp2, 2) // delete function takes two argument 1-> map and 2-> the key that value we want to delete
 	fmt.Println(mp2)
 
 	mp3 := map[string]int{}
